@@ -15,11 +15,11 @@
 
 
     h2 {
-        color: #8f6dcf;
+        color: #8e59fa;
     }
 
     a {
-        color: #8f6dcf;
+        color: #8e59fa;
         text-decoration: none;
         margin-right: 1rem;
     }
@@ -27,11 +27,10 @@
     .navbar-buttons {
         position: absolute;
         top: -700px;
-        left: -2000px;
+        right: -2000px;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        z-index: 2;
 
         a {
             margin: 10px;
@@ -58,6 +57,9 @@
             left: 0;
             right: 0;
             text-align: center;
+            transition: .2s;
+            z-index: 2;
+
         }
     }
 
@@ -74,21 +76,23 @@
 
     position: absolute;
     top: -1000px;
+    right: -2000px;
+
     width: 100%;
     height: 100%;
-    transition: .5s;
-    border-radius: 50%;
-    z-index: 1;
+    transition: .2s;
     opacity: 100%;
-
 
     &.active {
         background-color: #333;
         top: -150px;
+        right: 0px;
+        border-radius: 0px 0px 0px 50px;
         width: 100%;
         height: 75%;
-        z-index: 1;
-        transition: .3s;
+        transition: .2s;
+
+
     }
 
 }
