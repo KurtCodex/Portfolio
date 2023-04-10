@@ -36,13 +36,12 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        align-items: center;
-        width: 55vh;
-        height: 55vh;
+        align-items: flex-start;
+
 
         img {
-            width: 50vh;
-            height: 50vh;
+            width: 20em;
+            height: 20em;
         }
     }
 
