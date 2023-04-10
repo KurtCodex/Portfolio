@@ -1,4 +1,36 @@
 .box-home {
-    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+
+    background-color: #202020;
     color: white;
+
+    height: 100vh;
+    padding: 30px;
+
+    .text-home {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        .title-home {
+            font-family: 'Open Sans', sans-serif;
+            background: -webkit-linear-gradient(#20f9c3, #13cbf4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .welcome-text-home {
+            font-family: 'Poiret One', cursive;
+            letter-spacing: .3px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+    }
+
+
 }
