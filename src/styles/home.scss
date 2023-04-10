@@ -10,6 +10,12 @@
     height: 100vh;
     padding: 30px;
 
+    @media(min-width: 768px) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
     .text-home {
         display: flex;
         flex-direction: column;
@@ -25,7 +31,6 @@
         .welcome-text-home {
             font-family: 'Poiret One', cursive;
             letter-spacing: .3px;
-
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
@@ -38,12 +43,9 @@
         justify-content: flex-start;
         align-items: flex-start;
 
-
         img {
             width: 20em;
             height: 20em;
         }
     }
-
-
 }
