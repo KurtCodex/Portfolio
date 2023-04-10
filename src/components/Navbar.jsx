@@ -30,6 +30,7 @@ export const Navbar = () => {
                 </div>
             </div>
             <div className={`Background-blackblur ${clicked ? 'active' : ''}`}>
+
             </div>
         </>
     )
