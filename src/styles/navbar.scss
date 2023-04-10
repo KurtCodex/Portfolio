@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .navbar {
@@ -36,17 +37,18 @@
         margin-right: auto;
         text-align: center;
 
-        a {
+        .link {
             margin: 10px;
             font-size: 24px;
             display: block;
         }
 
+
         @media(min-width: 768px) {
             position: initial;
             margin: 0;
 
-            a {
+            .link {
                 display: inline;
             }
         }

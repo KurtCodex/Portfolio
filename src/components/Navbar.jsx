@@ -20,10 +20,11 @@ export const Navbar = () => {
                     <h2>Logo </h2>
                 </div>
                 <div className={`navbar-buttons ${clicked ? 'active' : ''}`}>
-                    <a href="/"> Home </a>
-                    <Link to="/">Home2</Link>
-                    <a href="/">About</a>
-                    <a href="/"> Projects</a>
+                    <Link className="link" to="/">Home</Link>
+                    <Link className="link" to="/About">About</Link>
+                    <Link className="link" to="/Projects">Projects</Link>
+                    <Link className="link" to="/Contact">Contact</Link>
+
                 </div>
                 <div className="navbar-burguer-btn" >
                     <BurguerBtn clicked={clicked} handleClick={handleClick} />
