@@ -9,11 +9,9 @@
 
     padding: 30px;
 
-    @media(min-width: 660px) {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
+    ///
+    ///// box1 part1 /////////////////////////
+    ///
 
     .text-home {
         display: flex;
@@ -36,16 +34,91 @@
         }
     }
 
+
+    ///
+    ///// box1 part2 /////////////////////////
+    ///
+
+
     .img-home {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        margin-top: 20px;
+        margin-top: 25px;
 
         img {
             width: 20em;
             height: 20em;
         }
+
+
+    }
+
+    ///
+    ///// box1 part3 /////////////////////////
+    ///
+
+
+    .btn-contactme-queryphone {
+        display: flex;
+        align-items: start;
+        margin-top: 25px;
+
+        button {
+            background: -webkit-linear-gradient(#20f9c3, #13cbf4);
+            width: 7em;
+            height: 2em;
+            font-size: 16px;
+            border-style: none;
+            color: rgb(3, 22, 44);
+
+            &:hover {
+                background: -webkit-linear-gradient(#20f9c3, #64d7f1);
+            }
+        }
+    }
+
+    .btn-contactme-querypc {
+        display: none;
+    }
+
+    ///
+    ///// MEDIA QUERY /////////////////////////
+    ///
+
+    @media(min-width: 660px) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        .img-home {
+
+            margin-top: 0px;
+        }
+
+        .btn-contactme-queryphone {
+            display: none;
+        }
+
+        .btn-contactme-querypc {
+            display: flex;
+            align-items: start;
+            margin-top: 25px;
+
+            button {
+                background: -webkit-linear-gradient(#20f9c3, #13cbf4);
+                width: 7em;
+                height: 2em;
+                font-size: 16px;
+                border-style: none;
+                color: rgb(3, 22, 44);
+
+                &:hover {
+                    background: -webkit-linear-gradient(#20f9c3, #64d7f1);
+                }
+            }
+        }
+
     }
 }

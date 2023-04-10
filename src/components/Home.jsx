@@ -13,9 +13,15 @@ export const Home = () => {
                     <div className='title-home'>
                         <h1>Front-End Developer</h1>
                     </div>
+                    <div className='btn-contactme-querypc'>
+                        <button>Contact Me</button>
+                    </div>
                 </div>
                 <div className='img-home'>
                     <img src={IAMimg} alt="" />
+                </div>
+                <div className='btn-contactme-queryphone'>
+                    <button>Contact Me</button>
                 </div>
             </div>
         </>
