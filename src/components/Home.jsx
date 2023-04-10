@@ -1,6 +1,6 @@
 import React from 'react'
 import "../styles/home.scss"
-
+import IAMimg from "../assets/img/Iam-IMG2.jpeg"
 
 export const Home = () => {
     return (
@@ -15,7 +15,7 @@ export const Home = () => {
                     </div>
                 </div>
                 <div className='img-home'>
-                    <img src="" alt="" />
+                    <img src={IAMimg} alt="" />
                 </div>
             </div>
         </>

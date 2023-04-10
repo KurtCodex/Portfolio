@@ -1,6 +1,6 @@
 .box-home {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
 
 
@@ -29,6 +29,20 @@
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
+        }
+    }
+
+    .img-home {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 55vh;
+        height: 55vh;
+
+        img {
+            width: 50vh;
+            height: 50vh;
         }
     }
 
