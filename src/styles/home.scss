@@ -1,12 +1,13 @@
+body {
+    background-color: #202020;
+}
+
 .box-home {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-
-
     background-color: #202020;
-
-
+    height: auto;
     padding: 30px;
 
     ///
@@ -17,13 +18,13 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        color: white;
 
         .title-home {
             font-family: 'Open Sans', sans-serif;
             background: -webkit-linear-gradient(#20f9c3, #13cbf4);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+
         }
 
         .welcome-text-home {
@@ -32,6 +33,8 @@
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
+            color: white;
+
         }
     }
 
@@ -101,7 +104,7 @@
     @media(min-width: 660px) {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+
 
         .img-home {
 

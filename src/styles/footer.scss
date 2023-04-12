@@ -1,0 +1,87 @@
+.footer-box {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: auto;
+    height: auto;
+    margin-top: 10em;
+
+    .footer-floating-box {
+        position: relative;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background: -webkit-linear-gradient(#20f9c3, #13cbf4);
+        color: rgb(0, 0, 0);
+        padding: 5px;
+        bottom: 35px;
+        width: 83%;
+        height: 7em;
+        border-radius: 15px;
+
+        .btn-contactame {
+
+            button {
+                background: black;
+                border-radius: 10px;
+                width: 7em;
+                height: 3em;
+                font-size: 14px;
+                border-style: none;
+                color: rgb(255, 255, 255);
+                box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);
+
+                &:hover {
+                    background: #ffffff;
+                    box-shadow: 0px 0px 15px 0px black;
+                    color: black;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+
+    ///
+    ///////////////////////////////////////////
+    /// 
+
+    .footer-base-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        background-color: #191919;
+        width: 100%;
+        height: 10em;
+
+        .link {
+            margin: 10px;
+            font-size: 24px;
+            display: block;
+
+        }
+
+        a {
+            background: -webkit-linear-gradient(#1ccda1, #0ea4c6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-decoration: none;
+        }
+
+        .footer-routes,
+        .footer-projects {
+            margin-top: 30px;
+
+        }
+    }
+
+
+
+}
