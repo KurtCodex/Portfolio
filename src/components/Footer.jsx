@@ -13,6 +13,9 @@ export const Footer = () => {
                             Talk me us today
                         </h2>
                     </div>
+                    <span className='visual-ticks-decoration'></span>
+                    <span className='visual-ticks-decoration'></span>
+
                     <div className='btn-getstarted'>
                         <div className='btn-contactame'>
                             <button>Contact Me</button>

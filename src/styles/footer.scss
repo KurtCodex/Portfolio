@@ -1,3 +1,12 @@
+:root {
+    --borderWidth: 4px;
+    --height: 18px;
+    --width: 18px;
+    --border1Color: black;
+    --border2Color: #20f9c3;
+
+}
+
 .footer-box {
 
     display: flex;
@@ -25,6 +34,21 @@
         height: 7em;
         border-radius: 15px;
 
+        .visual-ticks-decoration {
+            position: relative;
+
+            display: inline-block;
+            transform: rotate(-90deg);
+            height: var(--height);
+            width: var(--width);
+            border-bottom: var(--borderWidth) solid var(--border2Color);
+            border-right: var(--borderWidth) solid var(--border1Color);
+            top: 40px;
+            right: 170px;
+            left: 10px;
+            rotate: 45deg;
+        }
+
         .btn-contactame {
 
             button {
@@ -45,6 +69,13 @@
                 }
             }
         }
+
+        @media(min-width: 660px) {
+            .visual-ticks-decoration {
+                left: -180px;
+            }
+        }
+
     }
 
 
@@ -87,6 +118,11 @@
 
         }
     }
+
+
+    ///
+    ///// MEDIA QUERY /////////////////////////
+    ///
 
 
 
