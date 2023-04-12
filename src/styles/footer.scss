@@ -45,7 +45,7 @@
             border-right: var(--borderWidth) solid var(--border1Color);
             top: 40px;
             right: 170px;
-            left: 10px;
+            left: -155px;
             rotate: 45deg;
         }
 
@@ -72,7 +72,11 @@
 
         @media(min-width: 660px) {
             .visual-ticks-decoration {
-                left: -180px;
+                display: none;
+            }
+
+            .text-getstarted {
+                font-size: 14px;
             }
         }
 

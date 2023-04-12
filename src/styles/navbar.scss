@@ -28,6 +28,12 @@
         margin-right: 1rem;
     }
 
+    a:hover {
+        background: -webkit-linear-gradient(#52edc6, #4ad7f7);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
     .navbar-title {
         z-index: 1;
     }
@@ -44,7 +50,10 @@
             margin: 10px;
             font-size: 24px;
             display: block;
+
+
         }
+
 
 
         @media(min-width: 768px) {
@@ -53,6 +62,7 @@
 
             .link {
                 display: inline;
+
             }
         }
 
