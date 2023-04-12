@@ -52,19 +52,19 @@
         .btn-contactame {
 
             button {
-                background: black;
+                background-color: black;
+                color: #20f9c3;
                 border-radius: 10px;
                 width: 7em;
                 height: 3em;
                 font-size: 14px;
                 border-style: none;
-                color: rgb(255, 255, 255);
                 box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);
 
                 &:hover {
-                    background: #ffffff;
                     box-shadow: 0px 0px 15px 0px black;
-                    color: black;
+                    background-color: rgb(42, 41, 41);
+                    color: #1ccda1;
                     cursor: pointer;
                 }
             }

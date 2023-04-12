@@ -24,7 +24,7 @@ body {
             background: -webkit-linear-gradient(#20f9c3, #13cbf4);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            font-size: 18px;
+            font-size: 16px;
             margin-left: -3px;
 
         }
@@ -82,7 +82,7 @@ body {
         margin-top: 25px;
 
         button {
-            background: -webkit-linear-gradient(#20f9c3, #13cbf4);
+            background-color: #20f9c3;
             width: 7em;
             height: 2em;
             font-size: 16px;
@@ -105,7 +105,6 @@ body {
         position: absolute;
         width: 200px;
         height: 200px;
-        background-color: #13cbf4;
     }
 
     ///
@@ -134,7 +133,7 @@ body {
             margin-top: 25px;
 
             button {
-                background: -webkit-linear-gradient(#20f9c3, #13cbf4);
+                background-color: #20f9c3;
                 width: 7em;
                 height: 2em;
                 font-size: 16px;
