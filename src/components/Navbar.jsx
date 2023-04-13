@@ -20,10 +20,22 @@ export const Navbar = () => {
                     <h2>Logo </h2>
                 </div>
                 <div className={`navbar-buttons ${clicked ? 'active' : ''}`}>
-                    <Link className="link" to="/">Home</Link>
-                    <Link className="link" to="/About">About</Link>
-                    <Link className="link" to="/Projects">Projects</Link>
-                    <Link className="link" to="/Contact">Contact</Link>
+                    <Link className="link" to="/">
+                        <i class="gg-menu-boxed"></i>
+                        <a className="nameHome">Home</a>
+                    </Link>
+                    <Link className="link" to="/About">
+                        <i class="gg-menu-boxed"></i>
+                        <a className="nameAbout">About</a>
+                    </Link>
+                    <Link className="link" to="/Projects">
+                        <i class="gg-menu-boxed"></i>
+                        <a className="nameProjects">Projects</a>
+                    </Link>
+                    <Link className="link" to="/Contact">
+                        <i class="gg-menu-boxed"></i>
+                        <a className="nameContact">Contact</a>
+                    </Link>
 
                 </div>
                 <div className="navbar-burguer-btn" >

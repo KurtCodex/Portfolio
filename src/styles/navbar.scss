@@ -41,20 +41,42 @@
     .navbar-buttons {
         position: absolute;
         top: -700px;
-        right: -2000px;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
 
         .link {
-            margin: 10px;
             font-size: 24px;
             display: block;
 
+            i {
+                margin: 30px;
+                color: #1ccdc1;
+            }
 
+            .nameHome,
+            .nameAbout,
+            .nameProjects,
+            .nameContact {
+                font-size: 12px;
+                display: none;
+            }
         }
 
+        &.active {
+            width: 15%;
+            display: block;
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            top: 12%;
+            left: 86.5%;
+            right: 0;
+            text-align: end;
+            transition: .2s;
+            z-index: 2;
 
+        }
 
         @media(min-width: 768px) {
             position: initial;
@@ -63,22 +85,18 @@
             .link {
                 display: inline;
 
+                i {
+                    display: none;
+                }
+
+                .nameHome,
+                .nameAbout,
+                .nameProjects,
+                .nameContact {
+                    font-size: 18px;
+                    display: inline;
+                }
             }
-        }
-
-        &.active {
-            width: 100%;
-            display: block;
-            position: absolute;
-            margin-left: auto;
-            margin-right: auto;
-            top: 10%;
-            left: 0;
-            right: 0;
-            text-align: center;
-            transition: .2s;
-            z-index: 2;
-
         }
     }
 
@@ -91,6 +109,9 @@
 }
 
 .Background-blackblur {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #202020;
 
     position: absolute;
@@ -106,11 +127,13 @@
         background-color: #333;
         top: -10vh;
         right: 0px;
-        width: 100%;
-        height: 75%;
+        width: 15%;
+        height: 80%;
         transition: .2s;
     }
 
-
+    @media(min-width: 768px) {
+        display: none;
+    }
 
 }
