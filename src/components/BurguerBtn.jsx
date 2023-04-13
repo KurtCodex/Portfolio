@@ -9,7 +9,7 @@ export const BurguerBtn = (props) => {
                 className={`icon nav-icon-6 ${props.clicked ? 'open' : ''}`}>
                 <span></span>
                 <span></span>
-                <span></span>
+                <span className="span3"></span>
             </div >
         </>
     )
