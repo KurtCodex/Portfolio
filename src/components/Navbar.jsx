@@ -21,19 +21,19 @@ export const Navbar = () => {
                 </div>
                 <div className={`navbar-buttons ${clicked ? 'active' : ''}`}>
                     <Link className="link" to="/">
-                        <i class="gg-menu-boxed"></i>
+                        <i className="gg-home-alt"></i>
                         <a className="nameHome">Home</a>
                     </Link>
                     <Link className="link" to="/About">
-                        <i class="gg-menu-boxed"></i>
+                        <i className="gg-menu-boxed"></i>
                         <a className="nameAbout">About</a>
                     </Link>
                     <Link className="link" to="/Projects">
-                        <i class="gg-menu-boxed"></i>
+                        <i className="gg-menu-boxed"></i>
                         <a className="nameProjects">Projects</a>
                     </Link>
                     <Link className="link" to="/Contact">
-                        <i class="gg-menu-boxed"></i>
+                        <i className="gg-menu-boxed"></i>
                         <a className="nameContact">Contact</a>
                     </Link>
 
@@ -42,9 +42,7 @@ export const Navbar = () => {
                     <BurguerBtn clicked={clicked} handleClick={handleClick} />
                 </div>
             </div>
-            <div className={`Background-blackblur ${clicked ? 'active' : ''}`}>
 
-            </div>
         </>
     )
 }
