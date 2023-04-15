@@ -25,11 +25,11 @@ export const Navbar = () => {
                         <a className="nameHome">Home</a>
                     </Link>
                     <Link className="link" to="/About">
-                        <i class="gg-file-document"></i>
+                        <i className="gg-file-document"></i>
                         <a className="nameAbout">About</a>
                     </Link>
                     <Link className="link" to="/Projects">
-                        <i class="gg-briefcase"></i>
+                        <i className="gg-briefcase"></i>
                         <a className="nameProjects">Projects</a>
                     </Link>
                     <Link className="link" to="/Contact">
